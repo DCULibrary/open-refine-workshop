@@ -47,7 +47,7 @@ Or you might have lots of information bundled together like in an address field 
 | University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS |
 | University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE	|
 | University of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT |
-| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL | Univ. of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
+| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL |
 
 to something more like this:
 
