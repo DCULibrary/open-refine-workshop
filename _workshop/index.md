@@ -42,9 +42,9 @@ Placenames - or any kind of words may be misspelt or not be capitalised
 
 Or you might have lots of information bundled together like in an address field that you might want in a more granular layout
 
-| Address in single field	| Institution	| Library name | Address 1 | Town/City | Region | Postcode |
+| Address in single field	| Institution	| Library | Address 1 | Town/City | Region | Postcode |
 | ----------------------- | ----------- | ------------ | --------- | --------- | --------- | ------ | ------- | -------- |
-| Univ. of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS | Univ. of Wales	| Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | SY23 3AS |
-| Univ. of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE	| Univ. of Abderdeen	| Queen Mother Library | Meston Walk | Aberdeen | | AB24 3UE |
-| Univ. of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT | Univ. of Birmingham | Barnes Library	Medical School | Birmingham | West Midlands | B15 2TT |
-| Univ. of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL | Univ. of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
+| Uni of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS | Uni of Wales	| Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | SY23 3AS |
+| Uni of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE	| Uni of Abderdeen	| Queen Mother Library | Meston Walk | Aberdeen | | AB24 3UE |
+| Uni of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT | Univ. of Birmingham | Barnes Library | Medical School | Birmingham | West Midlands | B15 2TT |
+| Uni of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL | Univ. of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
