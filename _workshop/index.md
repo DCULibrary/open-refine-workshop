@@ -3,14 +3,27 @@ title: Intro to Data Cleaning with OpenRefine # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
-### What is Open Refine?
-> A power tool for working with messy data
+### What is Open Refine and what is it for?
+> __A power tool for working with messy data__
 
+OpenRefine is:
 * More powerful than a spreadsheet
 * More interactive and visual than scripting
 * More experimental/playful than a database
 
 _David Huynh, OpenRefine creator_
+
+It can be used for different kinds of data but OpenRefine is most useful where your data is in tabular format but which has or may have internal inconsistencies. These inconsistencies could be in data formats, where data appears, or in terminology used. OpenRefine can be used to standardize and clean data across your file. It can help you:
+* Get an overview of a data set
+* Help you split data up into more granular parts, for example splitting up cells with multiple authors into separate cells
+* Match local data up to other data sets, for example in matching local subjects against the Library of Congress Subject Headings
+* Enhance a data set with data from other sources
+
+Some common scenarios might be:
+
+* Where you want to know how many times a particular value (name, publisher, subject) appears in a column in your data
+* Where you want to know how values are distributed across your whole data set
+* Where you have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:
 
 ### What is messy data? And why should you clean it?
 
@@ -53,9 +66,22 @@ For example, you may want to get from address data like this:
 
 to something more like this:
 
-| Institution	| Library | Address 1 | Town/City | Region | Postcode |
-| ----------- | --------| --------- | --------- | ------ | ---------|
-| University of Wales	| Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | SY23 3AS |
-| University of Aberdeen | Queen Mother Library | Meston Walk | Aberdeen | | AB24 3UE |
-| University of Birmingham | Barnes Library | Medical School | Birmingham | West Midlands | B15 2TT |
-| University of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
+| Institution	             | Library                        | Address 1         | Town/City   | Region        | Postcode |
+| ------------------------ | ------------------------------ | ----------------- | ----------- | ------------- | ---------|
+| University of Wales	     | Llyfrgell Thomas Parry Library | Llanbadarn Fawr   | Aberystwyth | Ceredigion    | SY23 3AS |
+| University of Aberdeen   | Queen Mother Library           | Meston Walk       | Aberdeen    |               | AB24 3UE |
+| University of Birmingham | Barnes Library                 | Medical School    | Birmingham  | West Midlands | B15 2TT  |
+| University of Warwick    | Library                        | Gibbett Hill Road | Coventry    |               | CV4 7AL  |
+
+As well as cleaning your data, OpenRefine can be used to _enhance_ your dataset. An example is if you have a list of names of people which can be linked to records in an external authority, and then related data pulled in from that data source.
+
+| Data you have | Date of Birth from VIAF (Virtual Int. Authority File) | Date of Death from VIAF |
+| ------------- | ----------------------------------------------------- | ----------------------- |
+| Braddon, M. E. (Mary Elizabeth) |                                1835 |                    1915 |
+| Rossetti, William Michael |                                      1829 |                    1919 |
+| Prest, Thomas Peckett |                                          1810 |                    1879 |
+
+### What Should I Know When Working With OpenRefine?
+* OpenRefine runs in your browser but all data and processes are stored locally
+* Any sharing of data or workflows is done via OpenRefine's export/import process
+* You are NOT modifying original/raw data. OpenRefine works with a copy
