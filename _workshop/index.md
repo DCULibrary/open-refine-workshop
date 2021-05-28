@@ -40,7 +40,9 @@ Names of people or places may be misspelt or not capitalised:
 | London,]         | London       |
 | london           | London       |
 
-Or you might have lots of information bundled together like in an address field that you might want in a more granular layout. So you may want to get from data like this:
+Or you might have lots of information bundled together that you might want in a more granular layout.
+
+For example, you may want to get from address data like this:
 
 | Address in single field	|
 | :---------------------- |
