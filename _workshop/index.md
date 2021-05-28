@@ -16,17 +16,17 @@ Typically you will look to clean your data because you’re going to do somethin
 > _Hadley Wickham,_ [ _Tidy Data_ ](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 ### What is OpenRefine?
-> _*A power tool for working with messy data*_   
+> *A power tool for working with messy data*   
 * More powerful than a spreadsheet
 * More interactive and visual than scripting
 * More experimental/playful than a database
 >
 > _David Huynh, OpenRefine creator_
 
-OpenRefine is most useful for data in _tabular_ format like a spreadsheet or csv file, or in standardised formats like json or xml. Moving that data into OpenRefine enables you to:
-- [x] detect instances of inconsistent or messy data
-- [x] take steps to address those issues
-- [x] enhance your data by linking to external sources
+It is most useful where data is already in _tabular_ format like a spreadsheet or csv file, or in standardised formats like json or xml. Moving that data into OpenRefine enables you to:
+1. detect instances of inconsistent or messy data
+2. take steps to address those issues
+3. enhance your data by linking to external sources
 
 [//]: # (Some common tasks  for using OpenRefine:
 * to know how frequently a value appears
