@@ -44,7 +44,7 @@ Or you might have lots of information bundled together like in an address field 
 
 | Address in single field	| Institution	| Library name | Address 1 | Town/City | Region | Postcode |
 | ----------------------- | ----------- | ------------ | --------- | --------- | --------- | ------ | ------- | -------- |
-| University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS, United Kingdom | University of Wales	| Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | SY23 3AS |
-| University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE, United Kingdom	| University of Abderdeen	| Queen Mother Library | Meston Walk | Aberdeen | | AB24 3UE |
-| University of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT, United Kingdom | University of Birmingham | Barnes Library	Medical School | Birmingham | West Midlands | B15 2TT |
-| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL, United Kingdom | University of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
+| Univ. of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS | Univ. of Wales	| Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | SY23 3AS |
+| Univ. of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE	| Univ. of Abderdeen	| Queen Mother Library | Meston Walk | Aberdeen | | AB24 3UE |
+| Univ. of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT | Univ. of Birmingham | Barnes Library	Medical School | Birmingham | West Midlands | B15 2TT |
+| Univ. of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL | Univ. of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
