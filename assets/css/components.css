@@ -5561,7 +5561,7 @@ ol ol {
   background-color: #f5f6f7;
 }
 .table {
-  font-size: 14px;
+  font-size: 12px;
 }
 table.table {
   width: 100%;
@@ -5654,7 +5654,7 @@ table.table.table-no-borders tr th {
   border-bottom: none;
 }
 .table {
-  font-size: 14px;
+  font-size: 12px;
 }
 table.table {
   width: 100%;
@@ -5748,7 +5748,7 @@ table.table.table-no-borders tr th {
 }
 .table {
   background-color: transparent;
-  font-size: 14px;
+  font-size: 12px;
   margin-bottom: 16px;
 }
 .table .grid {
