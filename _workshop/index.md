@@ -1,11 +1,25 @@
 ---
-title: Workshop Title and Intro # The title of the page
+title: Intro to Data Cleaning with OpenRefine # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
-Causas caeli squalentia comes ictus guttura moenia,
-deficiunt tibi. Illa natas unda supersunt locus: silenti duri veniat furoribus
-certamine, mansit.
+### What is Open Refine
+> A power tool for working with messy data
+
+* More powerful than a spreadsheet
+* More interactive and visual than scripting
+* More experimental/playful than a database
+
+_David Huynh, OpenRefine creator_
+
+### What is messy data? And why should you clean it?
+
+| Data you have | Desired Data |
+| ------------- | ------------ |
+| 1st January 2014 | 2014-01-01 |
+| 01/01/2014 | 2014-01-01 |
+| Jan 1 2014 | 2014-01-01 |
+| 2014-01-01 | 2014-01-01 |
 
 1. Tepescere at animae
 2. Dulcedine si alvum videri

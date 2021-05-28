@@ -6,7 +6,6 @@ date: 0000-01-02    # Page order is set by date
 * [Download and setup instructions](https://docs.openrefine.org/manual/installing/)
 * [Sample file for use](http://tiny.cc/dcuopenrefine) from library carpentry lesson on OpenRefine which this workshop is based on.
 
-
 Lorem markdownum utrumque recentes primas exercetque potentem bracchia cupit.
 Meminitque recepi pudibundaque caedis regno duro ego dat expulsa, rumpo videt;
 adeant valido terrore silvas. Caeli sternit tamen sumpsisse corpora gaudia color
