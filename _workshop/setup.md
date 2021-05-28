@@ -3,8 +3,8 @@ title: Setup and Install     # The title of the page
 date: 0000-01-02    # Page order is set by date
 ---
 
-*[Download and setup instructions](https://docs.openrefine.org/manual/installing/)
-*[Sample file for use](http://tiny.cc/dcuopenrefine) from library carpentry lesson on OpenRefine which this workshop is based on.
+* [Download and setup instructions](https://docs.openrefine.org/manual/installing/)
+* [Sample file for use](http://tiny.cc/dcuopenrefine) from library carpentry lesson on OpenRefine which this workshop is based on.
 
 
 Lorem markdownum utrumque recentes primas exercetque potentem bracchia cupit.
