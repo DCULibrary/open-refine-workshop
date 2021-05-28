@@ -28,11 +28,6 @@ It is most useful where data is already in _tabular_ format like a spreadsheet o
 2. take steps to address those issues
 3. enhance your data by linking to external sources
 
-[//]: # (Some common tasks  for using OpenRefine:
-* to know how frequently a value appears
-* to know how a set of values are distributed across a dataset
-* to change all the dates in the list to a common format)
-
 Or you might not have any clear idea in advance of what you want or need to do. OpenRefine is very useful there too, for exploring a dataset and identify what might be useful next steps.
 
 [//]: # (There can be a concern that it cleaning data may remove complexity and variations which are important in and of themselves. In their article [_Against Cleaning_](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) Trevor Mu&#241;oz and Katie Lawson identify the term data _cleaning_ as problematic rather that the process itself which is (or should be) very much human-led. And that is true with OpenRefine: it is very useful software to bring things to the surface and find out if action is required for reliable analysis or visualisation, but the processes involved in data cleaning is transparent and controlled rather than automated.)
