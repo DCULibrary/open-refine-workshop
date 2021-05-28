@@ -3,18 +3,20 @@ title: Setup and Install     # The title of the page
 date: 0000-01-02    # Page order is set by date
 ---
 
-For this workshop you require OpenRefine installed and a sample dataset downloaded:
+For this workshop you should have OpenRefine installed and a sample dataset downloaded:
 
-* Download OpenRefine from https://openrefine.org/download.html.
+### Downloading OpenRefine
+
+* Download OpenRefine from <https://openrefine.org/download.html>
 There are versions for Windows, Mac OS X and Linux. The current stable version which this workshop has been tested with is __version 3.3__
 
-* Full download instructions: https://docs.openrefine.org/manual/installing/
+* Full download instructions: <https://docs.openrefine.org/manual/installing/>
 
 * Current versions of the “Windows kit with embedded Java” and “Mac kit” include everything you need to run OpenRefine. The “Linux kit” and traditional “Windows kit” require a “Java Runtime Environment” (JRE) installed on your system (see notes below).
 
 ### Downloading the sample dataset
 
-* Download the sample dataset from http://tiny.cc/dcuopenrefine which is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see credits).
+* Download the sample dataset from <http://tiny.cc/dcuopenrefine> which is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see credits).
 
 ### Installing OpenRefine
 
