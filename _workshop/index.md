@@ -22,7 +22,7 @@ Typically you’ll clean your data because you’re going to do something else w
 
 ### Some examples
 
-Dates on the left are in different formats
+Dates may be in different formats:
 
 | Data you have    | Desired Data |
 | ---------------- | ------------ |
@@ -31,7 +31,7 @@ Dates on the left are in different formats
 | Jan 1 2014       | 2014-01-01   |
 | 2014-01-01       | 2014-01-01   |
 
-Placenames - or any kind of words may be misspelt or not be capitalised
+Names of people or places may be misspelt or not capitalised:
 
 | Data you have    | Desired Data |
 | ---------------- | ------------ |
@@ -40,11 +40,20 @@ Placenames - or any kind of words may be misspelt or not be capitalised
 | London,]         | London       |
 | london           | London       |
 
-Or you might have lots of information bundled together like in an address field that you might want in a more granular layout
+Or you might have lots of information bundled together like in an address field that you might want in a more granular layout. So you may want to get from data like this:
 
-| Address in single field	| Institution	| Library | Address 1 | Town/City | Region | Postcode |
-| ----------------------- | ----------- | ------------ | --------- | --------- | --------- | ------ | ------- | -------- |
-| Uni of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS | Uni of Wales	| Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | SY23 3AS |
-| Uni of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE	| Uni of Abderdeen	| Queen Mother Library | Meston Walk | Aberdeen | | AB24 3UE |
-| Uni of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT | Univ. of Birmingham | Barnes Library | Medical School | Birmingham | West Midlands | B15 2TT |
-| Uni of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL | Univ. of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
+| Address in single field	|
+|------------------------ |
+| University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS |
+| University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE	|
+| University of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT |
+| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL | Univ. of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
+
+to something more like this:
+
+| Institution	| Library | Address 1 | Town/City | Region | Postcode |
+| ----------- | --------| --------- | --------- | ------ | ---------|
+| University of Wales	| Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | SY23 3AS |
+| University of Aberdeen | Queen Mother Library | Meston Walk | Aberdeen | | AB24 3UE |
+| University of Birmingham | Barnes Library | Medical School | Birmingham | West Midlands | B15 2TT |
+| University of Warwick | Library | Gibbett Hill Road | Coventry | | CV4 7AL |
