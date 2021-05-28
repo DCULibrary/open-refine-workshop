@@ -43,7 +43,7 @@ Names of people or places may be misspelt or not capitalised:
 Or you might have lots of information bundled together like in an address field that you might want in a more granular layout. So you may want to get from data like this:
 
 | Address in single field	|
-|------------------------ |
+| :---------------------- |
 | University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS |
 | University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE	|
 | University of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT |
