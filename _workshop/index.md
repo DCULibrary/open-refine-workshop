@@ -3,7 +3,7 @@ title: Intro to Data Cleaning with OpenRefine # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
-### What is Open Refine
+### What is Open Refine?
 > A power tool for working with messy data
 
 * More powerful than a spreadsheet
@@ -14,12 +14,16 @@ _David Huynh, OpenRefine creator_
 
 ### What is messy data? And why should you clean it?
 
-| Data you have | Desired Data |
-| ------------- | ------------ |
-| 1st January 2014 | 2014-01-01 |
-| 01/01/2014 | 2014-01-01 |
-| Jan 1 2014 | 2014-01-01 |
-| 2014-01-01 | 2014-01-01 |
+Data that needs cleaning is often called messy data - it is data that is inconsistent or poorly structured in some way.
+
+Typically you’ll clean your data because you’re going to do something else with it- maybe to visualise it or present it in some way - or to analyse or draw conclusions from it. Cleaning your data will help ensure any subsequent work is accurate and reliable. In humanities there can be a concern that it could be seen as removing complexity from data. The article [against cleaning](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) by Trevor Mu&#241;oz and Katie Lawson identifies the term data _cleaning_ itself as problematic in this sense rathe thatn the process itself which is or should be very much human-led. And that is true with OpenRefine- it is very useful software to bring things to the surface but you still are driving the bus
+
+| Data you have    | Desired Data |
+| ---------------- | ------------ |
+| 1st January 2014 | 2014-01-01   |
+| 01/01/2014       | 2014-01-01   |
+| Jan 1 2014       | 2014-01-01   |
+| 2014-01-01       | 2014-01-01   |
 
 1. Tepescere at animae
 2. Dulcedine si alvum videri
