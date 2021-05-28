@@ -3,7 +3,20 @@ title: Intro to Data Cleaning with OpenRefine # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
-### What is Open Refine and what is it for?
+
+### What is messy data? And why should you clean it?
+
+Data that needs cleaning is often called messy data - it is data that is inconsistent or poorly structured in some way.
+
+Typically you’ll clean your data because you’re going to do something else with it. Maybe to visualise it or present it in some way, or to analyse or draw conclusions from it. Cleaning your data will help ensure any work or outputs based on the dataset is accurate and reliable.
+
+[//]: # (There can be a concern that it cleaning data may remove complexity and variations which are important in and of themselves. In their article [_Against Cleaning_](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) Trevor Mu&#241;oz and Katie Lawson identify the term data _cleaning_ as problematic rather that the process itself which is (or should be) very much human-led. And that is true with OpenRefine: it is very useful software to bring things to the surface and find out if action is required for reliable analysis or visualisation, but the processes involved in data cleaning is transparent and controlled rather than automated.)
+
+> It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data.
+Data preparation is not just a first step, but must be repeated many times over the course of analysis as new problems come to light or new data is collected.
+Hadley Wickham, [Tidy Data](https://vita.had.co.nz/papers/tidy-data.pdf)
+
+### What is Open Refine?
 > __A power tool for working with messy data__
 
 OpenRefine is:
@@ -13,7 +26,9 @@ OpenRefine is:
 
 _David Huynh, OpenRefine creator_
 
-It can be used for different kinds of data but OpenRefine is most useful where your data is in tabular format but which has or may have internal inconsistencies. These inconsistencies could be in data formats, where data appears, or in terminology used. OpenRefine can be used to standardize and clean data across your file. It can help you:
+It can be used for different kinds of data but OpenRefine is most useful for data in tabular format. This could be a spreadsheet or csv file but formats like json or xml can also be used.
+
+Typically data cleaning is a consideration where you think your data has or may have internal inconsistencies. These could be in data formats, where data appears, or in terminology used. OpenRefine can be used firstly to detect instances of inconsistent or messy data and then standardize and clean data across your file. It can help you:
 * Get an overview of a data set
 * Help you split data up into more granular parts, for example splitting up cells with multiple authors into separate cells
 * Match local data up to other data sets, for example in matching local subjects against the Library of Congress Subject Headings
@@ -25,13 +40,6 @@ Some common scenarios might be:
 * Where you want to know how values are distributed across your whole data set
 * Where you have a list of dates which are formatted in different ways, and want to change all the dates in the list to a single common date format. For example:
 
-### What is messy data? And why should you clean it?
-
-Data that needs cleaning is often called messy data - it is data that is inconsistent or poorly structured in some way.
-
-Typically you’ll clean your data because you’re going to do something else with it. Maybe to visualise it or present it in some way, or to analyse or draw conclusions from it. Cleaning your data will help ensure any work or outputs based on the dataset is accurate and reliable.
-
-[//]: # (There can be a concern that it cleaning data may remove complexity and variations which are important in and of themselves. In their article [_Against Cleaning_](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) Trevor Mu&#241;oz and Katie Lawson identify the term data _cleaning_ as problematic rather that the process itself which is (or should be) very much human-led. And that is true with OpenRefine: it is very useful software to bring things to the surface and find out if action is required for reliable analysis or visualisation, but the processes involved in data cleaning is transparent and controlled rather than automated.)
 
 ### Some examples
 
