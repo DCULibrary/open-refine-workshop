@@ -31,10 +31,20 @@ Dates on the left are in different formats
 | Jan 1 2014       | 2014-01-01   |
 | 2014-01-01       | 2014-01-01   |
 
+Placenames - or any kind of words may be misspelt or not be capitalised
 
 | Data you have    | Desired Data |
 | ---------------- | ------------ |
-| 1st January 2014 | 2014-01-01   |
-| 01/01/2014       | 2014-01-01   |
-| Jan 1 2014       | 2014-01-01   |
-| 2014-01-01       | 2014-01-01   |
+| London           | London       |
+| London]          | London       |
+| London,]         | London       |
+| london           | London       |
+
+Or you might have lots of information bundled together like in an address field that you might want in a more granular layout
+
+| Address in single field	| Institution	| Library name | Address 1 | Address 2 | Town/City | Region | Country | Postcode |
+| ----------------------- | ----------- | ------------ | --------- | --------- | --------- | ------ | ------- | -------- |
+| University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS, United Kingdom | University of Wales	| Llyfrgell Thomas Parry Library | Llanbadarn Fawr | Aberystwyth | Ceredigion | United Kingdom | SY23 3AS |
+| University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE, United Kingdom	| University of Abderdeen	| Queen Mother Library | Meston Walk | Aberdeen | United Kingdom | AB24 3UE |
+| University of Birmingham, Barnes Library, Medical School, Edgbaston, BIRMINGHAM, West Midlands, B15 2TT, United Kingdom | University of Birmingham | Barnes Library	Medical School | Edgbaston | Birmingham | West Midlands | United Kingdom | B15 2TT |
+| University of Warwick, Library, Gibbett Hill Road, COVENTRY, CV4 7AL, United Kingdom | University of Warwick | Library | Gibbett Hill Road | Coventry | United Kingdom | CV4 7AL |
