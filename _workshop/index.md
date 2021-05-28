@@ -16,7 +16,9 @@ _David Huynh, OpenRefine creator_
 
 Data that needs cleaning is often called messy data - it is data that is inconsistent or poorly structured in some way.
 
-Typically you’ll clean your data because you’re going to do something else with it- maybe to visualise it or present it in some way - or to analyse or draw conclusions from it. Cleaning your data will help ensure any subsequent work is accurate and reliable. In humanities there can be a concern that it could be seen as removing complexity from data. The article [_Against Cleaning_](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) by Trevor Mu&#241;oz and Katie Lawson identifies the term data _cleaning_ itself as problematic in this sense rathe thatn the process itself which is or should be very much human-led. And that is true with OpenRefine- it is very useful software to bring things to the surface but you still are driving the bus
+Typically you’ll clean your data because you’re going to do something else with it. Maybe to visualise it or present it in some way, or to analyse or draw conclusions from it. Cleaning your data will help ensure any work or outputs based on the dataset is accurate and reliable.
+
+There can be a concern that it cleaning data may remove complexity and variations which are important in and of themselves. In their article [_Against Cleaning_](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) Trevor Mu&#241;oz and Katie Lawson identify the term data _cleaning_ as problematic rather that the process itself which is (or should be) very much human-led. And that is true with OpenRefine: it is very useful software to bring things to the surface and find out if action is required for reliable analysis or visualisation, but the processes involved in data cleaning is transparent and controlled rather than automated.
 
 | Data you have    | Desired Data |
 | ---------------- | ------------ |

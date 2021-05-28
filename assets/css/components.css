@@ -5375,6 +5375,7 @@ ol ol {
   background-color: transparent;
   font-size: 14px;
   margin-bottom: 16px;
+  width: 600px;
 }
 .table .grid {
   margin: 0;
