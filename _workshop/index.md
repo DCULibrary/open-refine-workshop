@@ -27,6 +27,13 @@ There can be a concern that it cleaning data may remove complexity and variation
 | Jan 1 2014       | 2014-01-01   |
 | 2014-01-01       | 2014-01-01   |
 
+{: .| Data you have | Desired Data     |
+| :------------- | :------------- |
+| 1st January 2014 | 2014-01-01   |
+| 01/01/2014       | 2014-01-01   |
+| Jan 1 2014       | 2014-01-01   |
+| 2014-01-01       | 2014-01-01   |}
+
 1. Tepescere at animae
 2. Dulcedine si alvum videri
 3. Mihi coniuge est Picus ad montibus forte
