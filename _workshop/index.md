@@ -13,29 +13,27 @@ Typically you will look to clean your data because you’re going to do somethin
 > _It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data._  
 > _Data preparation is not just a first step, but must be repeated many times over the course of analysis as new problems come to light or new data is collected._
 >
-> Hadley Wickham, [ _Tidy Data_ ](https://vita.had.co.nz/papers/tidy-data.pdf)
+> _Hadley Wickham,_ [ _Tidy Data_ ](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 ### What is OpenRefine?
-> OpenRefine is:  
-_*A power tool for working with messy data*_   
+> _*A power tool for working with messy data*_   
 * More powerful than a spreadsheet
 * More interactive and visual than scripting
 * More experimental/playful than a database
 >
 > _David Huynh, OpenRefine creator_
 
-OpenRefine is most useful for data in _tabular_ format, like a spreadsheet or csv file, or in standardised formats like json or xml. Broadly speaking, it enables you to:
+OpenRefine is most useful for data in _tabular_ format like a spreadsheet or csv file, or in standardised formats like json or xml. Moving that data into OpenRefine enables you to:
 - [x] detect instances of inconsistent or messy data
 - [x] take steps to address those issues
-- [x] link to external sources enhance your dataset further
+- [x] enhance your data by linking to external sources
 
-Some common scenarios or objectives might be:
+[//]: # (Some common tasks  for using OpenRefine:
+* to know how frequently a value appears
+* to know how a set of values are distributed across a dataset
+* to change all the dates in the list to a common format)
 
-* you want to know how frequently a value appears
-* you want to know how all values are distributed across a dataset
-* you want to change all the dates in the list to a single common date format.
-
-Quite often, you might not have clear objectives. And OpenRefine is good for that too! It lets you look at data in different ways and identify useful processes to clean or tidy your dataset (in the article above, Wickham talks about _tidy_ data as a subset of _clean_ data i.e. the part that is more concerned with structuring your data correctly in order to facilitate analysis.)
+Or you might not have any clear idea in advance of what you want or need to do. OpenRefine is very useful there too, for exploring a dataset and identify what might be useful next steps.
 
 [//]: # (There can be a concern that it cleaning data may remove complexity and variations which are important in and of themselves. In their article [_Against Cleaning_](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) Trevor Mu&#241;oz and Katie Lawson identify the term data _cleaning_ as problematic rather that the process itself which is (or should be) very much human-led. And that is true with OpenRefine: it is very useful software to bring things to the surface and find out if action is required for reliable analysis or visualisation, but the processes involved in data cleaning is transparent and controlled rather than automated.)
 
@@ -59,12 +57,10 @@ Names of people or places may be misspelt or not capitalised:
 | London,]         | London       |
 | london           | London       |
 
-Or you might have lots of information bundled together that you might want in a more granular layout.
+Information bundled together that you might want in a more granular layout. For example, you may want to get from address data like this:
 
-For example, you may want to get from address data like this:
-
-| Address in single field	|
-| :---------------------- |
+| Address |
+| ------- |
 | University of Wales, Llyfrgell Thomas Parry Library, Llanbadarn Fawr, ABERYSTWYTH, Ceredigion, SY23 3AS |
 | University of Aberdeen, Queen Mother Library, Meston Walk, ABERDEEN, AB24 3UE	|
 | University of Birmingham, Barnes Library, Medical School, BIRMINGHAM, West Midlands, B15 2TT |
