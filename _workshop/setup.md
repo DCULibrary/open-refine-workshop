@@ -38,7 +38,7 @@ Navigate to the folder where you've installed OpenRefine and do one of below dep
 
 * __Linux__: type ‘./refine’ in a terminal window
 
-* __Note:__ OpenRefine runs in your browser but is not supported by Internet Explorer. Please use Firefox, Chrome or Safari instead
+__Note: OpenRefine runs in your browser but is not supported by Internet Explorer. Please use Firefox, Chrome or Safari instead.__
 
 The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333. If this doesn’t happen automatically you can open a web browser and type in this address.
 
