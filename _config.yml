@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Workshop Template
+title: OpenRefine Workshop
 email: liam.odwyer@dcu.ie
-description: A template for DH Workshops
+description: A Carpentries-based workshop for DCU Library
 
 # Build settings
 markdown: kramdown
