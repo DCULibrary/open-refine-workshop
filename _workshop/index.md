@@ -23,7 +23,7 @@ Typically you will look to clean your data because you’re going to do somethin
 >
 > _David Huynh, OpenRefine creator_
 
-OpenRefine is a free, open-source Java application. You can download it from http://openrefine.org/download.html.
+OpenRefine is a free, open-source Java application. You can download it from <http://openrefine.org/download.html>.
 
 It is most useful where data is already in _tabular_ format like a spreadsheet or csv file, or in standardised formats like json or xml. Moving that data into OpenRefine enables you to:
 1. detect instances of inconsistent or messy data
