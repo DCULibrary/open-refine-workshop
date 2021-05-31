@@ -45,6 +45,6 @@ The interface to OpenRefine is accessed via a web browser. When you run Refine n
 ### Getting Help
 You can find support, documentation and tutorials on using OpenRefine in various places online including:
 
-* The OpenRefine Wiki https://github.com/OpenRefine/OpenRefine/wiki
-* The ‘Free your metadata’ site http://freeyourmetadata.org/
-* The OpenRefine mailing list and forum http://groups.google.com/d/forum/openrefine
+* The OpenRefine Wiki <https://github.com/OpenRefine/OpenRefine/wiki>
+* The ‘Free your metadata’ site <http://freeyourmetadata.org/>
+* The OpenRefine mailing list and forum <http://groups.google.com/d/forum/openrefine>
