@@ -3,11 +3,7 @@ title: Setup and Install     # The title of the page
 date: 0000-01-02    # Page order is set by date
 ---
 
-For this workshop you should have OpenRefine installed and a sample dataset downloaded:
-
-### Downloading the sample dataset
-
-* Download the sample dataset from <http://tiny.cc/dcuopenrefine> which is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see credits).
+For this workshop you should have OpenRefine installed.
 
 ### Downloading OpenRefine
 

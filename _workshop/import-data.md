@@ -5,18 +5,24 @@ date: 0000-01-03    # Page order is set by date
 
 ### Importing data
 #### What kinds of data files can I import?
-There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
+OpenRefine accepts data in a variety of formats including:
 * TSV (tab-separated values)
 * CSV (comma-separated values)
 * Excel
 * JSON (javascript object notation)
 * XML
 * Google Spreadsheet
+(and more!)
+
+#### How can I move my data into OpenRefine?
+There are a number of ways to get data into Refine:
+* select a file in a local directory or that you have downloaded
+* by url if a dataset is hosted on the web (this is the method we wil use)
+* copy/paste directly (in some text format like csv or json)
+
+We will do it by uploading a file from a url <http://tiny.cc/dcuopenrefine>. This is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see credits).
 
 #### Create your first OpenRefine project (using provided data)
-To import the data for the exercise below, follow the instructions in Setup to download the data and run OpenRefine.
-NOTE: If OpenRefine does not open in a browser window, open your browser and type the address http://127.0.0.1:3333/ to take you to the OpenRefine interface.
-
 Once OpenRefine is launched in your browser
 * Click `Create Project` from the left hand menu
 * Select `Get data from This Computer`
