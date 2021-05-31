@@ -18,9 +18,7 @@ There are versions for Windows, Mac OS X and Linux. The current stable version w
 
 * The “Linux kit” and traditional “Windows kit” require Java Runtime Environment (JRE) to be installed on your system (see notes below).
 
-* Full download instructions:
-<https://librarycarpentry.org/lc-open-refine/setup.html>
-<https://docs.openrefine.org/manual/installing/>
+* Full download instructions:\<https://librarycarpentry.org/lc-open-refine/setup.html>\<https://docs.openrefine.org/manual/installing/>
 
 ### Installing OpenRefine
 
