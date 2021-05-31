@@ -1,72 +1,35 @@
 ---
-title: Import Data     # The title of the page
+title: Uploading Your Data     # The title of the page
 date: 0000-01-03    # Page order is set by date
 ---
 
-Lorem markdownum utrumque recentes primas exercetque potentem bracchia cupit.
-Meminitque recepi pudibundaque caedis regno duro ego dat expulsa, rumpo videt;
-adeant valido terrore silvas. Caeli sternit tamen sumpsisse corpora gaudia color
-inamabile hastae, dare [dum](http://www.nonorbam.com/trepidumque.html):
-recurrunt agimus. [Manus arces](http://est.com/et-nomina.html) annis. In ac huc
-quoque cur labor ferit danda, conceditur milite.
+### Importing data
+#### What kinds of data files can I import?
+There are several options for getting your data set into OpenRefine. You can upload or import files in a variety of formats including:
+* TSV (tab-separated values)
+* CSV (comma-separated values)
+* Excel
+* JSON (javascript object notation)
+* XML
+* Google Spreadsheet
 
-    netmaskUncBin += codec_android_encoding;
-    if (device_bios) {
-        supply_linux_proxy = 3;
-    }
-    postscriptMacintoshGuid(-1, matrixOperationSector(55 + -1,
-            copyrightServerGateway, 5));
+#### Create your first OpenRefine project (using provided data)
+To import the data for the exercise below, follow the instructions in Setup to download the data and run OpenRefine.
+NOTE: If OpenRefine does not open in a browser window, open your browser and type the address http://127.0.0.1:3333/ to take you to the OpenRefine interface.
 
-Pes medio tuae quoque: tuae faciunt. Pugnatum vaga sibi damnatus quattuor se
-ipso caducas geminis filia! Morti nunc cavernis.
+Once OpenRefine is launched in your browser
+* Click `Create Project` from the left hand menu
+* Select `Get data from This Computer`
+* Click `Choose Files` or `Browse`(depending on your setup) and locate the `doaj-article-sample.csv` file which you have downloaded
+* Click `Next >>`
 
-## Pectus obstipuit plangoris aures concrescere parum torrentem
+The next screen (see below) gives you options to ensure the data is imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
 
-Spatioque sortemque Cerambi, putat? Hanc tura detrahitur et axem vittae. Meum
-umeros diversa, cum quem locavit parat aestus cum magno atque proelia iubent
-Curibusque.
+* Click in the `Character encoding` box and set it to `UTF-8`. This ensures that OpenRefine correctly interprets the imported data as UTF-8 encoded. If you don’t select this you may find that some special characters (e.g. smart quotation marks) are not displayed correctly.
+* Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers`
+* OpenRefine will automatically select `Use character` to enclose cells containing column separators as this will place data in one cell where the values are enclosed in quotes from the source dataset
+* From OpenRefine 3.4 onwards there is an option to `Trim leading & trailing whitespace from strings when importing separator-based files`. Keeping this checked will ensure that values like `English` and `English `, which differ by a single trailing space, are not treated as different values after the import
+* Make sure the `Parse cell text into numbers, dates, ...` box is not checked, so OpenRefine doesn’t try to automatically detect numbers as it may cause errors such as confusion between date formats (e.g. DD/MM/YYYY vs MM/DD/YYYY)
+* The `Project Name` box in the upper right corner will default to the title of your imported file. Click here and give your project a different name
 
-    cybersquatterBoot = base(leakTftpVector(icann_cad_memory));
-    if (cross + bar_dual == ideLogicInsertion) {
-        logic_e_copy = 4;
-        sampling(21, thunderbolt);
-    } else {
-        eup.pc += 5;
-        thyristor_kilohertz = crop_samba;
-        viral_mtu_twain += pmuAspRepository;
-    }
-    if (5 - web_dimm) {
-        root_agp_virtualization += 22;
-        framework = proxy_graymail_clean.heuristic.hardE(defragmentWeb,
-                driveMatrix(ata));
-    } else {
-        clipboardTerahertz(domain(dns_sdsl_interlaced, pda, port),
-                goodputImpactMca * dvr_mount);
-    }
-    if (standalone(ide, adsl_url_barebones) > wheelBootTtl) {
-        matrix -= 23;
-        trackball_core(sound, vdu_media_digital, platform * page);
-        token_denial.basicLinkWinsock = sidebar_bar;
-    } else {
-        services(state_netiquette_remote);
-        clipboard_dual_abend += 31562 + internic_format_card - 2;
-    }
-    offline_buffer.definition(bps_codec_processor(terahertz_parity,
-            control_kilobit_crop, facebook), name + remoteFavorites,
-            matrix_truncate_character);
-
-## Sibi fuit externis omnibus harundine amans si
-
-Induiturque et patrio tumor; Somni tibi udaeque humanam habeo sub
-[nobis](http://erexit-caelesti.org/)? Aderat latebris premens viscera nil,
-accedere quod: hic omnia est!
-
-> Utroque perque iterumque **domos** iuvat novaque iuvenis puerilibus agmen
-> obstante parilique Ulixem haustus [in](http://inpar.org/), Meleagros non rura
-> esse vellera. Pignus repetita in monet **matre trunci Cythereia** atque
-> Nereusque in.
-
-Editus peraguntque et excute latratus illum fuga ad nullosque moratos profundum
-ad omnem non unda Acrisioneas! *Enipeus* nabat caelestique dea ora profanam
-**egit**. Modus cum, erat contermina cingebant fumificisque quaesita sentit
-tellus. Modo dura super!
+Once you are happy click the `Create Project >>` button at the top right of the screen. This will create the project and open it for you. Projects are saved as you work on them, there is no need to save copies as you go along.
