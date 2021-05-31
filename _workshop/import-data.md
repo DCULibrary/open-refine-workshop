@@ -23,14 +23,13 @@ There are a number of ways to get data into Refine:
 We will do it by uploading a file from a url <http://tiny.cc/dcuopenrefine>. This is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see credits).
 
 ### Create your first OpenRefine project
-Once OpenRefine is launched in your browser
+Once OpenRefine is launched in your browser:
 * Click `Create Project` from the left hand menu
 * Select `Web Addresses (URLs)`
 * Enter `http://tiny.cc/dcuopenrefine` in the text box
 * Click `Next >>`
 
-OpenRefine will give you a preview of how it will parse your dataset. If you don't see anything in the preview it's because it has been unable to parse it correctly. There are various options of format types and how to generate the column titles.
-The next screen (see below) gives you options to ensure the data is imported into OpenRefine correctly. The options vary depending on the type of data you are importing.
+OpenRefine should give you a preview of how it will parse your dataset and gives various options to ensure the data is imported into OpenRefine correctly. The exact options vary depending on the type of data you are importing. For this exercise we'll make a few checks:
 
 * Click in the `Character encoding` box and set it to `UTF-8`. This can be important if you have a dataset that uses certain special characters.
 * Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers` (this should already be checked)
