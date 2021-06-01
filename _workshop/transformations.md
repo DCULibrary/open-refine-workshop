@@ -38,6 +38,12 @@ Sometimes there will be changes that are more structural.
 * `Edit cells > common transform > remove consecutive whitespace`
 
 #### Use GREL to standarise Publisher formatting
+To start writing GREL transformations:
+* Select the column on which you wish to perform a transformation
+* Choose `Edit cells > Transform…` to see the GREL screen
+You write transformations in the ‘Expression’ box and then can Preview the effect the transformation would have on the first 10 rows of your data. The transformation you type into the ‘Expression’ box has to be a valid GREL expression. The simplest expression is simply the word `value` by itself - which simply means ‘the value that is
+currently in the column’ - that is, “make no change”.
+
 * Facet by `publisher`
 * Select `Akshantala Enterprises` and `Society of Pharmaceutical Technocrats`
 * Select multiple values in the facet with the `include` option
