@@ -37,13 +37,28 @@ Sometimes there will be changes that are more structural.
 * See the multiple entries for one publisher
 * `Edit cells > common transform > remove consecutive whitespace`
 
-#### Use GREL to standarise Publisher formatting
+### Using GREL
 To start writing GREL transformations:
 * Select the column on which you wish to perform a transformation
-* Choose `Edit cells > Transform…` to see the GREL screen
+* Choose `Edit cells > Transform…` to see the GREL screen.
+
 You write transformations in the ‘Expression’ box and then can Preview the effect the transformation would have on the first 10 rows of your data. The transformation you type into the ‘Expression’ box has to be a valid GREL expression. The simplest expression is simply the word `value` by itself - which simply means ‘the value that is
 currently in the column’ - that is, “make no change”.
 
+GREL functions are written by giving a _value_ of some kind (a text string, a date, a number etc.) to a
+GREL _function_. Some GREL functions take additional parameters or options which control how the
+function works. GREL supports two syntaxes:
+* `value.function(options)`
+* `function(value, options)`
+
+Either is valid, and which is used is completely down to personal preference.
+Next to the `Preview` option are options to view:
+* `History` - a list of transformations you’ve previously used with the option to reuse them
+immediately or to ‘star’ them for easy access
+* `Starred` - a list of transformations you’ve ‘starred’ via the ‘History’ view
+* `Help` - a list of all the GREL functions and brief information on how to use them
+
+#### Use GREL to standarise Publisher formatting
 * Facet by `publisher`
 * Select `Akshantala Enterprises` and `Society of Pharmaceutical Technocrats`
 * Select multiple values in the facet with the `include` option
@@ -51,3 +66,13 @@ currently in the column’ - that is, “make no change”.
 * Click the dropdown menu on the `Title` column
 * Choose `Edit cells->Transform...``
 * In the Expression box type `value.toTitlecase()`
+
+#### Undo / Redo and Apply / Extract
+OpenRefine lets you undo, and redo, any steps you have taken in cleaning the data. This means you can always try out transformations and ‘undo’ if you need to. The way OpenRefine records the steps you have taken even allows you to take the steps you’ve carried out on one data set, and apply it to another data set by a simple copy and paste operation.
+
+* `Undo` and `Redo` options are accessed via the lefthand panel
+When you Undo, remaining steps will still show but are greyed out. However if you then start doing new transformations the greyed out steps will disappear and you’ll no longer have the option to redo those steps.
+
+* To be reapply a set of steps or transformations you click on the `Extract` button. These are saved in JSON format. Select which one you want to save and copy the transformations into a .txt or .json file. You can then apply this from the same menu in a new dataset or project.
+
+* The steps in the Undo / Redo menu of a project is saved with your project - it is not just during that session. So later on if you realise a transformation from an old project would be useful you can go back in and pull it out.
