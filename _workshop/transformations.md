@@ -27,25 +27,21 @@ To Lowercase	        | Converts the current value to lowercase |	value.toLowerca
 To Titlecase	        | Converts the current value to titlecase |	value.toTitlecase() |
 Trim leading and trailing whitespace | Removes any ‘whitespace’ characters (e.g. spaces, tabs) from the start or end of the current value | value.trim() |
 
-
-* Sometimes there will be changes that are more structural.
+Sometimes there will be changes that are more structural.
 * Splitting data from a single col into multiple cols (eg.an address)
 * Standardising format of data in a col (e.g. date)
 
-### Common Transformations
-Common transformations are available through the menu options. Others can be written in GREL
+#### Remove whitespace in Publisher Column
 
 * `Publisher > Text facet`
 * See the multiple entries for one publisher
 * `Edit cells > common transform > remove consecutive whitespace`
 
-These transformations (and many more advanced ones) can also be done via GREL, OpenRefine's scripting language. The advantage of using the GREL is you get a nice preview of the changes.
-
-### Writing Transformations
-* Facet by publisher
+#### Use GREL to standarise Publisher formatting
+* Facet by `publisher`
 * Select `Akshantala Enterprises` and `Society of Pharmaceutical Technocrats`
 * Select multiple values in the facet with the `include` option
 * See that the Titles for these are all in uppercase
-* Click the dropdown menu on the Title column
-* Choose Edit cells->Transform...
+* Click the dropdown menu on the `Title` column
+* Choose `Edit cells->Transform...``
 * In the Expression box type `value.toTitlecase()`

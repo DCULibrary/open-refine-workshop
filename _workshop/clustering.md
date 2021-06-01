@@ -5,7 +5,7 @@ date: 0000-01-06    # Page order is set by date
 
 Clustering is another way to clean your data - somewhat similar to the text facet but it uses algorithms to detect similar values and suggest merges rather than the more manual selection of facets. It looks for patterns of variation without you needing to do quite so much detective work. So for very large datasets this can be really useful.
 
-* Split the `author` values again (using `Edit cells -> Split multi-valued cells`, using the pipe ( | ) character as the separator)
+* Split the `author` values again (using `Edit cells -> Split multi-valued cells`, using the pipe ( &#124; ) character as the separator)
 * On the `author` column `Edit cells > cluster and edit`
 
 The default method (`fingerprinting`) looks at variations in whitespace and case. It is pretty good at pulling out the most common and most obvious inconsistencies. After you’ve applied it and merged them you can try one of the other algorithms. More info on the heuristics that are used here
