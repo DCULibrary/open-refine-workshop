@@ -11,7 +11,7 @@ OpenRefine can retrieve data from URLs. This can be used in various ways, includ
 Use the drop down menu at any column heading and select `Edit column->Add column by fetching URLs`. This will prompt you for a GREL expression to create a url. The url uses values in your data to request a different data for each line. So you generally have the root of a url plus the value in a particular column. The data retrieved will be stored in a cell in the new column.  You can then use OpenRefine transformations to extract relevant information from the data that has been retrieved.
 Two specific OpenRefine functions used for this are: `parseHtml()` and `parseJson()`
 
-### Retrieving journal details from CrossRef via ISSN
+#### Retrieving journal details from CrossRef via ISSN
 Because retrieving data from external URLs takes time, this exercise targets a single line in the data. In reality you would want to run this over many rows (and probably go and do something else while it ran)
 Firstly we will will filter to a single row from the data set which contains an ISSN by:
 * Clicking the star icon for the relevant row in the first column
@@ -88,6 +88,8 @@ We could do these one by one, but if we are confident with the matches, there is
 * In the `Publisher` column use the dropdown menu to choose `Reconcile->Actions->Match each cell to its best candidate`
 
 As well as these services, some data providers have gone further and written openrefine _extensions_. Whether you use these or which ones you use will depend a lot on your dataset and subject area and what you are trying to achieve. But for now it is really to know that you can do this with OpenRefine.
-A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at http://openrefine.org/download.html
+A list of Extensions (not necessarily complete) is given on the OpenRefine downloads page at <http://openrefine.org/download.html>
+
+One of these extensions tries to work around the limitation of Reconciliation services described above, by making it possible to use a reconciliation service against ‘linked data’ sources which have SPARQL endpoints . For more information on this see the ‘RDF Extension’ at <http://refine.deri.ie>. An example of how this works is given in more detail at <http://refine.deri.ie/showcases>.
 
 -----------------------------
