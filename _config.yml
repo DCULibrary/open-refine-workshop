@@ -26,7 +26,6 @@ description: A Carpentries-based workshop for DCU Library
 markdown: kramdown
 theme: minima
 baseurl: "/open-refine-workshop"
-future: true
 
 # Direct posts to specific url
 collections:
