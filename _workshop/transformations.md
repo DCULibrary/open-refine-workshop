@@ -58,7 +58,7 @@ immediately or to ‘star’ them for easy access
 * `Starred` - a list of transformations you’ve ‘starred’ via the ‘History’ view
 * `Help` - a list of all the GREL functions and brief information on how to use them
 
-#### Use GREL to standarise Publisher formatting
+#### Use GREL to standardise Publisher formatting
 * Facet by `publisher`
 * Select `Akshantala Enterprises` and `Society of Pharmaceutical Technocrats`
 * Select multiple values in the facet with the `include` option
@@ -67,7 +67,9 @@ immediately or to ‘star’ them for easy access
 * Choose `Edit cells->Transform...``
 * In the Expression box type `value.toTitlecase()`
 
-#### Undo / Redo and Apply / Extract
+------------------
+
+### Undo / Redo and Apply / Extract
 OpenRefine lets you undo, and redo, any steps you have taken in cleaning the data. This means you can always try out transformations and ‘undo’ if you need to. The way OpenRefine records the steps you have taken even allows you to take the steps you’ve carried out on one data set, and apply it to another data set by a simple copy and paste operation.
 
 * `Undo` and `Redo` options are accessed via the lefthand panel
