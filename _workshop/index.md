@@ -1,5 +1,5 @@
 ---
-title: Intro to Data Cleaning with OpenRefine # The title of the page
+title: Data Cleaning with OpenRefine # The title of the page
 date: 0000-01-01    # Page order is set by date
 ---
 
