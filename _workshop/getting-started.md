@@ -20,6 +20,8 @@ There are a number of ways to get data into Refine:
 
 We will do it by uploading a file from a url <http://tiny.cc/dcuopenrefine>. This is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see credits).
 
+----------------------
+
 ### Create your first OpenRefine project
 Once OpenRefine is launched in your browser:
 * Click `Create Project` from the left hand menu
