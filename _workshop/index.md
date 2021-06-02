@@ -5,8 +5,7 @@ date: 0000-01-01    # Page order is set by date
 
 ### What is messy data? And why should you clean it?
 
-Data that needs cleaning is often called _messy_ data. It is data that is inconsistent or poorly structured in some way.
-This could be in relation to how it is formatted, where data appears, or in terminology used.
+Data that needs cleaning is often called _messy_ data. It is data that is inconsistent or poorly structured in some way. This could be in relation to how it is formatted, where data appears, or in terminology used.
 
 Typically you will look to clean your data because you’re going to do something else with it. Maybe to visualise it or present it in some way, or to analyse or draw conclusions from it. Cleaning your data will help ensure any work or outputs based on a given dataset is accurate and reliable. It is thus an important process for researchers to be aware of when using data in their research.
 
