@@ -1,6 +1,6 @@
 ---
 title: Data Types     # The title of the page
-date: 0000-01-08    # Page order is set by date
+date: 0000-01-06    # Page order is set by date
 ---
 
 There are five data types in OpenRefine:

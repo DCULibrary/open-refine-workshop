@@ -1,6 +1,6 @@
 ---
 title: Transformations     # The title of the page
-date: 0000-01-07    # Page order is set by date
+date: 0000-01-05    # Page order is set by date
 ---
 
 Through facets, filters and clusters OpenRefine offers relatively straightforward ways of getting an overview of your data, and making changes where you want to standardise terms used to a common set of values.
