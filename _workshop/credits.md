@@ -1,9 +1,8 @@
 ---
-title: Wrap up  # The title of the page
+title: Credits  # The title of the page
 date: 0000-01-08  # Page order is set by date
 ---
 
-### credits
 This lesson reuses content from:
 * Software Carpentry lessons on OpenRefine <http://software-carpentry.org/>
 * “Introduction to OpenRefine” developed by Owen Stephens on behalf of the British Library
