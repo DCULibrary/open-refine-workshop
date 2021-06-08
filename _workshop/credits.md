@@ -3,11 +3,11 @@ title: Credits  # The title of the page
 date: 0000-01-08  # Page order is set by date
 ---
 
-This lesson reuses content from:
-* Software Carpentry lessons on OpenRefine <http://software-carpentry.org/>
-* “Introduction to OpenRefine” developed by Owen Stephens on behalf of the British Library <http://www.meanboyfriend.com/overdue_ideas/wp-content/uploads/2014/11/Introduction-to-OpenRefine-handout-CC-BY.pdf>
+This lesson adapts and reuses content from:
+* _Software Carpentry_ lesson on OpenRefine <http://software-carpentry.org/>
+* _Introduction to OpenRefine_ developed by Owen Stephens on behalf of the British Library <http://www.meanboyfriend.com/overdue_ideas/wp-content/uploads/2014/11/Introduction-to-OpenRefine-handout-CC-BY.pdf>
 
-It is made available under the Creative Commons Attribution license [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
+Like those lessons, it is made available under the Creative Commons Attribution licence | [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/legalcode)
 
 You are free:
 * to share, copy and redistribute the material in any medium or format
