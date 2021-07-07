@@ -7,10 +7,10 @@ date: 0000-01-07    # Page order is set by date
 OpenRefine can retrieve data from URLs. This can be used in various ways, including looking up additional information from a remote service. Typically this is a two step process:
 
 1. __Retrieve data from a remote service__
-Use the drop down menu at any column heading and select `Edit column->Add column by fetching URLs`. This will prompt you for a GREL expression to create a url. The url uses values in your data to request a different data for each line. So you generally have the root of a url plus the value in a particular column.
-
+  - Use the drop down menu at any column heading and select `Edit column->Add column by fetching URLs`. This will prompt you for a GREL expression to create a url. The url uses values in your data to request a different data for each line. So you generally have the root of a url plus the value in a particular column.
 2. __Extract the relevant information from the data you have retrieved__
-The data retrieved will be stored in a cell in the new column.  You can then use OpenRefine transformations to extract relevant information from the data that has been retrieved.
+  - The data retrieved will be stored in a cell in the new column.  You can then use OpenRefine transformations to extract relevant information from the data that has been retrieved.
+
 Two specific OpenRefine functions used for this are: `parseHtml()` and `parseJson()`
 
 #### Retrieving journal details from CrossRef via ISSN
