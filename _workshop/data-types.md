@@ -25,8 +25,6 @@ An _array_ is a list of values or strings that can be reordered or manipulated. 
 * `Edit cells > Transform...`
 * `value.split("|").sort().join("|")`
 
-So that didn't quite work as planned. And I think it’s because it’s case sensitive.
-So I’ll try and fix that
+So that didn't quite work as planned, I think it’s because the sort function is case sensitive. So I’ll fix that first:
 * `value.split(“|”).join(“ | “).toTitlecase()`
 * `value.split(“ | ”).sort().join(“|”)`
-* `value.split(" | ").sort()`
