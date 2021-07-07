@@ -11,9 +11,9 @@ There are five data types in OpenRefine:
 * Array
 
 ### Working with Dates
-OpenRefine tends to default to seeing content as text. But you can turn them into these other data types. This project has a data field which is actually being treated as a string. With a transform we can tell it that this is a date
+OpenRefine tends to default to seeing content as text. But you can turn them into these other data types. This project has a date field which is actually being treated as a string. With a transform we can tell it that this is a date
 * On the `Date` column use the dropdown menu to select `Edit cells -> Transform`
-* In `Expression` box type `value.toDate("dd/MM/yyyy")` and press `OK`
+* In `Expression` box type `value.toDate()` and press `OK`
 Note how the values are now displayed in green and follow a standard convention for their display format (ISO 8601) - this indicates they are now stored as `date` data types in OpenRefine. We can now carry out functions that are specific to Dates
 * On the `Date` column dropdown select `Edit column->Add column based on this column`. Using this function you can create a new column, while preserving the old column
 * In the New column name type `Formatted Date`
