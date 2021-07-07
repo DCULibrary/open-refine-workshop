@@ -30,5 +30,3 @@ So I’ll try and fix that
 * `value.split(“|”).join(“ | “).toTitlecase()`
 * `value.split(“ | ”).sort().join(“|”)`
 * `value.split(" | ").sort()`
-
-https://drive.google.com/file/d/1z3pRf4DyOHh0dF8mQSJA7m83L3JgSrGl/view?usp=sharing
