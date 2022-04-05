@@ -8,7 +8,7 @@ For this workshop you should have OpenRefine installed.
 ### Downloading OpenRefine
 
 * Download OpenRefine from <https://openrefine.org/download.html>.
-There are versions for Windows, Mac OS X and Linux. The current stable version which this workshop has been tested with is __version 3.3__
+There are versions for Windows, Mac OS X and Linux. The current stable version which this workshop has been tested with is __version 5.2__
 
 * Current versions of the __“Windows kit with embedded Java”__ and __“Mac kit”__ include everything you need to run OpenRefine.
 
