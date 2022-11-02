@@ -26,7 +26,7 @@ We will do it by uploading a file from a url <https://github.com/LibraryCarpentr
 Once OpenRefine is launched in your browser:
 * Click `Create Project` from the left hand menu
 * Select `Web Addresses (URLs)`
-* Enter `http://tiny.cc/dcuopenrefine` in the text box
+* Enter `https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv` in the text box
 * Click `Next >>`
 
 OpenRefine should give you a preview of how it will parse your dataset and gives various options to ensure the data is imported into OpenRefine correctly. The exact options vary depending on the type of data you are importing. For this exercise we'll make a few checks:
