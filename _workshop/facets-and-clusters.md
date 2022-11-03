@@ -23,6 +23,9 @@ There are other types of facets - numeric, scatterplot, timeline - which require
 #### Facet by duplicate
 * Facet by duplicate on title (spots possible duplicate entry)
 
+#### Facet by blank
+* Facet by blank on publisher
+
 #### Use facets to batch edit data
 As well as giving you this clear view on data you can also use facets to start to work on the data.
 * Do a `text facet` on `Language`
