@@ -58,8 +58,16 @@ After whatever clustering you have done you `join multiple values` in the `autho
 
 OpenRefine is useful to _surface_ near-matches, but it does not automate the work of collapsing them into normalized values. Instead, it focuses one’s attention and labour on exactly that activity. In our initial version of computer-assisted data curation, you still have to touch each data point.
 
-### Key Points
-* Clustering is a way of finding variant forms of the same piece of data within a dataset (e.g. different spellings of a name)
-* There are a number of different Clustering algorithms that work in different ways and will produce different results
-* The best clustering algorithm to use will depend on the data
-* Using clustering you can replace varying forms of the same data with a single consistent value
+## 💡 Key Points
+
+✅ You use facets and filters to **explore** your data
+
+✅ Facets and filters also enable you to work with **subsets** of data
+
+✅ You can correct common data issues from a facet
+
+✅ **Clustering** is a way of finding variant forms within a dataset (e.g. different spellings of a name)
+
+✅ There are a number of different clustering **algorithms** that work in different ways
+
+✅ The best clustering algorithm to use will depend on your data

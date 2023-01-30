@@ -37,7 +37,7 @@ Typically you will look to clean your data because you’re going to do somethin
 
 So while you are usually cleaning data as a preparatory step, it’s very often a big part of any data-reliant project. And unfortunately it’s not something you do at the start and then skip off with your gleaming data. It’s an iterative process. But that can also be kind of a relief that you don’t have to "complete" your data cleaning.
 
-#### Some examples of messy data
+### Some examples of messy data
 
 Dates may be in different formats:
 
@@ -75,7 +75,7 @@ to something more like this:
 | University of Birmingham | Barnes Library                 | Medical School    | Birmingham  | West Midlands | B15 2TT  |
 | University of Warwick    | Library                        | Gibbett Hill Road | Coventry    |               | CV4 7AL  |
 
-#### Tidy Data
+### Tidy Data
 
 The last example above where data is *restructured* relates to _**tidy data**_. This can be thought of as a subset of clean data, more concerned with structuring your data correctly. Hadley Wickham has written a really good introduction to this topic.
 [![Tidy Data article screengrab](assets/images/TidyDataArticle.png)](https://vita.had.co.nz/papers/tidy-data.pdf)
@@ -94,7 +94,7 @@ In the same article, Wickham writes
 
 ![Image of Data and Lore from Star Trek](assets/images/ManyTypesOfData.png)
 
-...But mostly in OpenRefine we work with tabular data. This can be in different formats - excel, csv file or xml file but in structure it is *tabular*. And when we talk about *messy* data we are talking about the values in those cells in those tables. Blank cells, duplicates, errors.
+...But mostly in OpenRefine we work with tabular data. This can be in different formats - excel, csv file or xml file but in structure it is *tabular*. And when we talk about *messy* data we are talking about the values in those cells in those tables. Blank cells, duplicates, errors. Data types also relates to how OpenRefine treats numbers, strings etc. - we'll look more at that later.
 
 ### Enhancing your Data
 
@@ -106,7 +106,7 @@ As well as cleaning messy data, OpenRefine can be used to _enhance_ your dataset
 | Rossetti, William Michael |                                      1829 |                    1919 |
 | Prest, Thomas Peckett |                                          1810 |                    1879 |
 
-### Other reasons to use OpenRefine
+## Other reasons to use OpenRefine
 
 - It is important to **know what you *did* to your data**. Journals and granting agencies are increasingly requiring documentation of this. With OpenRefine, you can easily capture all of this and share it as supplemental material.
 - All actions are **easily reversed** in OpenRefine.

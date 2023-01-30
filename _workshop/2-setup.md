@@ -6,7 +6,7 @@ date: 0000-01-02    # Page order is set by date
 
 For this workshop you should have OpenRefine installed.
 
-### Downloading OpenRefine
+## Downloading OpenRefine
 
 * Download OpenRefine from <https://openrefine.org/download.html>.
 There are versions for Windows, Mac OS X and Linux. The current stable version which this workshop has been tested with is __version 5.2__
@@ -19,7 +19,7 @@ There are versions for Windows, Mac OS X and Linux. The current stable version w
   - <https://librarycarpentry.org/lc-open-refine/setup.html>  
   - <https://docs.openrefine.org/manual/installing>
 
-### Installing OpenRefine
+## Installing OpenRefine
 
 #### Windows
 * OpenRefine is downloaded as a zip file. To install, Unzip the downloaded file wherever you want. This can be to a personal directory or to an applications or software directory - OpenRefine should run wherever you put the unzipped folder. The location should be a “local” drive as problems have been reported trying to run OpenRefine from a Network drive.
@@ -27,7 +27,7 @@ There are versions for Windows, Mac OS X and Linux. The current stable version w
 #### Mac
 * OpenRefine is downloaded as a ‘dmg’ (disk image) file which you can open and then drag the OpenRefine application to an appropriate folder on you computer.
 
-### Running OpenRefine:
+## Running OpenRefine:
 Navigate to the folder where you've installed OpenRefine and do one of below depending on your system:
 * __Windows__: double-click either ’openrefine.exe’ or ‘refine.bat’
 
@@ -39,7 +39,7 @@ __Note: OpenRefine runs in your browser but is not supported by Internet Explore
 
 The interface to OpenRefine is accessed via a web browser. When you run Refine normally this should open a window in your default web browser pointing at the address http://127.0.0.1:3333. If this doesn’t happen automatically you can open a web browser and type in this address.
 
-### Getting Help
+## Getting Help
 You can find support, documentation and tutorials on using OpenRefine in various places online including:
 
 * The OpenRefine Wiki <https://github.com/OpenRefine/OpenRefine/wiki>
