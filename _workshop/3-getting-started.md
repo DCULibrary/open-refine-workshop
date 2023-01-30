@@ -79,8 +79,9 @@ OpenRefine has two modes of viewing data: _Rows_ and _Records_. It defaults to _
 * A record is a combination of one or multiple rows indentifying a unique object and sharing the same first column
 
 At the moment the rows and records numbers are the same. To show how this can be different we'll look for cells which have multiple values and split it across multiple rows.
+
 * The `author` column is showing lots of cells with more than one author.
-* Click on `edit` for closer look at what is in that column. Notice the separator is a | or 'pipe' character.
+* Click on `edit` for closer look at what is in that column. Notice the separator is a &#124; or 'pipe' character.
 * `Author > Edit cells > split multi valued cells`
 * Toggle the row/record view to now see the count difference
 * `Author > Edit cells > join multi valued cells`
@@ -88,7 +89,8 @@ At the moment the rows and records numbers are the same. To show how this can be
 
 In these multivalued cells the character separating each value is called a _separator_ or _delimiter_. Choose a good separator - a comma separator in the author field would cause problems!! Generally you look to __choose a separator that is not in your data values__.
 
-__Exercise__
+#### Exercise
+
 * Try doing the same thing in the `subject` field - `split` and `join`
 
 So that is some initial reorganising. Next we’ll look at refining functions - faceting filtering, and clustering
