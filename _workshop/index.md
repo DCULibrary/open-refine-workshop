@@ -71,6 +71,31 @@ to something more like this:
 | University of Birmingham | Barnes Library                 | Medical School    | Birmingham  | West Midlands | B15 2TT  |
 | University of Warwick    | Library                        | Gibbett Hill Road | Coventry    |               | CV4 7AL  |
 
+### Tidy Data
+
+The last example above where data is *restructured* relates to _**tidy data**_ - kind of a subset of clean data, more concerned with structuring your data correctly. Hadley Wickham has written a really good introduction to this topic.
+![Tidy Data article screengrab](assets/images/TidyDataArticle.png)
+
+> *“Tidy datasets are easy to manipulate, model and visualise, and have a specific structure:*
+> - *each variable is a column, *
+> - *each observation is a row, and *
+> - *each type of observational unit is a table.”*
+> *Hadley Wickham, [Tidy Data](https://vita.had.co.nz/papers/tidy-data.pdf)*
+
+In the same article, Wickham writes
+> *"“It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data.*
+> *Data preparation is not just a first step, but must be repeated many times over the course of analysis as new problems come to light or new data is collected.”*
+
+You are usually cleaning data as a preparatory step - but that’s not something that should be underestimated as it’s always a big part of working with data. And unfortunately it’s not something you do at the start and then skip off with your gleaming data. It’s an iterative process. But that can be kind of a relief that you don’t have to do everything at once.
+
+### Data Types
+
+![Image of Data and Lore from Star Trek](assets/images/ManyTypesOfData.png)
+
+...But mostly in OpenRefine we work with tabular data. This can be in different formats - excel, csv file or xml file but in structure it is *tabular*. And when we talk about *messy* data we are talking about the values in those cells in those tables. Blank cells, duplicates, errors.
+
+### Enhancing your Data
+
 As well as cleaning messy data, OpenRefine can be used to _enhance_ your dataset. For example, if you have a list of names of people which can be linked to records in an external authority, related data can then be pulled in from that data source.
 
 | Data you have | Date of Birth from VIAF (Virtual Int. Authority File) | Date of Death from VIAF |
@@ -79,7 +104,19 @@ As well as cleaning messy data, OpenRefine can be used to _enhance_ your dataset
 | Rossetti, William Michael |                                      1829 |                    1919 |
 | Prest, Thomas Peckett |                                          1810 |                    1879 |
 
-### What Should I Know When Working With OpenRefine?
-* OpenRefine runs in your browser but all data and processes are stored locally
-* Any sharing of data or workflows is done via OpenRefine's export/import process
-* You are NOT modifying original/raw data. OpenRefine works with a copy of your dataset
+### Other reasons to use OpenRefine
+
+- It is important to **know what you *did* to your data**. Journals and granting agencies are increasingly requiring documentation of this. With OpenRefine, you can easily capture all of this and share it as supplemental material.
+- All actions are **easily reversed** in OpenRefine.
+- OpenRefine always uses a copy of your data and **does not modify your original dataset**.
+- OpenRefine always **keeps your data private** on your own computer until you choose to share it. It works by running a small server on your computer and using your web browser to interact with it, but your private data never leaves your computer unless you want it to.
+
+## 💡 OpenRefine helps you...
+
+✅ **Clean** - Find and fix inconsistency with faceting, clustering, cell transforms
+
+✅ **Transform** - change formats, restructure, split/join multi-valued cells, split columns, transpose columns/rows
+
+✅ **Extend** - enrich data by combining files, merging projects, fetching URLs, reconciliation with online databases…
+
+✅ **Automate ** - reuse your processing routine by exporting operation history in JSON!
