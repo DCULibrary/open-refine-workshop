@@ -17,23 +17,27 @@ OpenRefine accepts data in a variety of formats including:
 
 #### How can I move my data into OpenRefine?
 
+![Import screen](assets/images/Import.png)
 There are a number of ways to get data into Refine:
 * select a file in a local directory or that you have downloaded
 * by url if a dataset is hosted on the web (this is the method we wil use)
 * copy/paste directly (in some text format like csv or json)
 
-We will do it by uploading a file from a url <https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv>. This is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see credits).
+We will do it by uploading a file from a url <https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv>. This is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see [credits](credits.md).
 
-----------------------
+## Create your first OpenRefine project
 
-### Create your first OpenRefine project
 Once OpenRefine is launched in your browser:
 * Click `Create Project` from the left hand menu
 * Select `Web Addresses (URLs)`
 * Enter `https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv` in the text box
 * Click `Next >>`
 
-OpenRefine should give you a preview of how it will parse your dataset and gives various options to ensure the data is imported into OpenRefine correctly. The exact options vary depending on the type of data you are importing. For this exercise we'll make a few checks:
+OpenRefine should give you a preview of how it will parse your dataset and gives various options to ensure the data is imported into OpenRefine correctly. 
+
+![parsing screenshot](assets/images/parsing.png)
+
+The exact options to choose vary depending on the type of data you are importing. For this exercise we'll make a few checks:
 
 * Click in the `Character encoding` box and set it to `UTF-8`. This can be important if you have a dataset that uses certain special characters.
 * Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers` (this should already be checked)
