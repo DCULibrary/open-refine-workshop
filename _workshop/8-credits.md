@@ -1,5 +1,6 @@
 ---
 title: Credits  # The title of the page
+nav: Credits
 date: 0000-01-08  # Page order is set by date
 ---
 

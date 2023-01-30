@@ -1,5 +1,6 @@
 ---
 title: Data Types     # The title of the page
+nav: Data Types
 date: 0000-01-06    # Page order is set by date
 ---
 

@@ -12,11 +12,11 @@ layout: base
   <ol class="stepper">
     {% for item in site[page.collection] %} {% if item.url == page.url %}
     <li class="stepper-item active">
-      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      <a href="{{ item.url | relative_url }}">{{ item.nav }}</a>
     </li>
     {% else %}
     <li class="stepper-item">
-      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      <a href="{{ item.url | relative_url }}">{{ item.nav }}</a>
     </li>
     {% endif %} {% endfor %}
   </ol>

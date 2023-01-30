@@ -1,5 +1,6 @@
 ---
 title: Getting Started     # The title of the page
+nav: Getting Started
 date: 0000-01-03    # Page order is set by date
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Advanced Functions     # The title of the page
+nav: Advanced Functions
 date: 0000-01-07    # Page order is set by date
 ---
 

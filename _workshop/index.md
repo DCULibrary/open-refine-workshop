@@ -1,20 +1,10 @@
 ---
-title: Intro to OpenRefine # The title of the page
+title: Intro to Data Cleaning with OpenRefine # The title of the page
+nav: Intro to OpenRefine
 date: 0000-01-01    # Page order is set by date
 ---
 
-### What is messy data? And why should you clean it?
-
-Data that needs cleaning is often called _messy_ data. It is data that is inconsistent or poorly structured in some way. This could be in relation to how it is formatted, where data appears, or in terminology used.
-
-Typically you will look to clean your data because you’re going to do something else with it. Maybe to visualise it or present it in some way, or to analyse or draw conclusions from it. Cleaning your data will help ensure any work or outputs based on a given dataset is accurate and reliable. It is thus an important process for researchers to be aware of when using data in their research.
-
-> _It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data._  
-> _Data preparation is not just a first step, but must be repeated many times over the course of analysis as new problems come to light or new data is collected._
->
-> _Hadley Wickham,_ [ _Tidy Data_ ](https://vita.had.co.nz/papers/tidy-data.pdf)
-
-### What is OpenRefine?
+## What is OpenRefine?
 > *A power tool for working with messy data*   
 * More powerful than a spreadsheet
 * More interactive and visual than scripting
@@ -33,7 +23,20 @@ Or you might not have any clear idea in advance of what you want or need to do. 
 
 [//]: # (There can be a concern that it cleaning data may remove complexity and variations which are important in and of themselves. In their article [_Against Cleaning_](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/07154de9-4903-428e-9c61-7a92a6f22e51) Trevor Mu&#241;oz and Katie Lawson identify the term data _cleaning_ as problematic rather that the process itself which is (or should be) very much human-led. And that is true with OpenRefine: it is very useful software to bring things to the surface and find out if action is required for reliable analysis or visualisation, but the processes involved in data cleaning is transparent and controlled rather than automated.)
 
-### Some examples of messy data
+## What is messy data? And why should you clean it?
+
+Data that needs cleaning is often called _messy_ data. It is data that is inconsistent or poorly structured in some way. This could be in relation to how it is formatted, where data appears, or in terminology used.
+
+Typically you will look to clean your data because you’re going to do something else with it. Maybe to visualise it or present it in some way, or to analyse or draw conclusions from it. Cleaning your data will help ensure any work or outputs based on a given dataset is accurate and reliable. It is thus an important process for researchers to be aware of when using data in their research.
+
+> _It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data._  
+> _Data preparation is not just a first step, but must be repeated many times over the course of analysis as new problems come to light or new data is collected._
+>
+> _Hadley Wickham,_ [ _Tidy Data_ ](https://vita.had.co.nz/papers/tidy-data.pdf)
+
+So while you are usually cleaning data as a preparatory step, it’s very often a big part of any data-reliant project. And unfortunately it’s not something you do at the start and then skip off with your gleaming data. It’s an iterative process. But that can also be kind of a relief that you don’t have to "complete" your data cleaning.
+
+#### Some examples of messy data
 
 Dates may be in different formats:
 
@@ -71,10 +74,10 @@ to something more like this:
 | University of Birmingham | Barnes Library                 | Medical School    | Birmingham  | West Midlands | B15 2TT  |
 | University of Warwick    | Library                        | Gibbett Hill Road | Coventry    |               | CV4 7AL  |
 
-### Tidy Data
+#### Tidy Data
 
-The last example above where data is *restructured* relates to _**tidy data**_ - kind of a subset of clean data, more concerned with structuring your data correctly. Hadley Wickham has written a really good introduction to this topic.
-![Tidy Data article screengrab](assets/images/TidyDataArticle.png)
+The last example above where data is *restructured* relates to _**tidy data**_. This can be thought of as a subset of clean data, more concerned with structuring your data correctly. Hadley Wickham has written a really good introduction to this topic.
+[![Tidy Data article screengrab](assets/images/TidyDataArticle.png)](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 > *“Tidy datasets are easy to manipulate, model and visualise, and have a specific structure:*
 > - *each variable is a column, *
@@ -85,8 +88,6 @@ The last example above where data is *restructured* relates to _**tidy data**_ -
 In the same article, Wickham writes
 > *"“It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data.*
 > *Data preparation is not just a first step, but must be repeated many times over the course of analysis as new problems come to light or new data is collected.”*
-
-You are usually cleaning data as a preparatory step - but that’s not something that should be underestimated as it’s always a big part of working with data. And unfortunately it’s not something you do at the start and then skip off with your gleaming data. It’s an iterative process. But that can be kind of a relief that you don’t have to do everything at once.
 
 ### Data Types
 
@@ -111,6 +112,8 @@ As well as cleaning messy data, OpenRefine can be used to _enhance_ your dataset
 - OpenRefine always uses a copy of your data and **does not modify your original dataset**.
 - OpenRefine always **keeps your data private** on your own computer until you choose to share it. It works by running a small server on your computer and using your web browser to interact with it, but your private data never leaves your computer unless you want it to.
 
+---------------
+
 ## 💡 OpenRefine helps you...
 
 ✅ **Clean** - Find and fix inconsistency with faceting, clustering, cell transforms
@@ -119,4 +122,4 @@ As well as cleaning messy data, OpenRefine can be used to _enhance_ your dataset
 
 ✅ **Extend** - enrich data by combining files, merging projects, fetching URLs, reconciliation with online databases…
 
-✅ **Automate ** - reuse your processing routine by exporting operation history in JSON!
+✅ **Automate** - reuse your processing routine by exporting operation history in JSON!

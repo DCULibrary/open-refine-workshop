@@ -1,5 +1,6 @@
 ---
 title: Facets and Clusters     # The title of the page
+nav: Facets & Clusters
 date: 0000-01-04    # Page order is set by date
 ---
 

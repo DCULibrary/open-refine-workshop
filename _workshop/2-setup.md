@@ -1,5 +1,6 @@
 ---
 title: Setup and Install     # The title of the page
+nav: Setup & Install
 date: 0000-01-02    # Page order is set by date
 ---
 

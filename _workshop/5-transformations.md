@@ -1,5 +1,6 @@
 ---
 title: Transformations     # The title of the page
+nav: Transformations
 date: 0000-01-05    # Page order is set by date
 ---
 
