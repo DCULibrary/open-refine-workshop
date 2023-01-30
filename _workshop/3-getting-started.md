@@ -32,7 +32,7 @@ Once OpenRefine is launched in your browser:
 * Enter `https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv` in the text box
 * Click `Next >>`
 
-![Import screen](assets/images/import.png)
+![Import screen](assets/images/Import.png)
 
 OpenRefine should give you a preview of how it will parse your dataset and gives various options to ensure the data is imported into OpenRefine correctly. 
 
