@@ -64,7 +64,7 @@ Once you have chosen which service you are going to use:
 * In the `Publisher` column use the dropdown menu to choose `Reconcile->Start Reconciling`
 * If this is the first time you’ve used this particular reconciliation service, you’ll need to add the details of the service now
 * Click `Add Standard Service…` and in the dialogue that appears enter:
-`http://refine.codefork.com/reconcile/viaf` for Jeff’s public service
+`https://refine.codefork.com/reconcile/viaf` for Jeff’s public service
 * You should now see a heading in the list on the left hand side of the Reconciliation dialogue called “VIAF Reconciliation Service”
 * Click on this to choose to use this reconciliation service
 * In the middle box in the reconciliation dialogue you may get asked what type of ‘entity' you want to reconcile to - that is, what type of thing are you looking for. In this case choose `Corporate Name` (it seems like the VIAF Reconciliation Service is slightly intelligent about this and will only offer options that are relevant)

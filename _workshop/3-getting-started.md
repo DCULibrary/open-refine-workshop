@@ -22,9 +22,8 @@ There are a number of ways to get data into Refine:
 * by url if a dataset is hosted on the web (this is the method we wil use)
 * copy/paste directly (in some text format like csv or json)
 
-We will do it by uploading a file from a url <https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv>. 
+We will do it by uploading a file from a url, specifically: <https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv>. 
 
-Or a shortened url of <**https://tinyurl.com/liamsdataset**>. (Both go to the same dataset.)
 
 > This is taken from the __[*Carpentries*](https://carpentries.org)__ OpenRefine lessons, which this lesson is based on (see [credits](credits.md).
 
@@ -34,6 +33,7 @@ Once OpenRefine is launched in your browser:
 * Click `Create Project` from the left hand menu
 * Select `Web Addresses (URLs)`
 * Enter `https://github.com/LibraryCarpentry/lc-open-refine/raw/gh-pages/data/doaj-article-sample.csv` in the text box
+	- (If you're typing it out, use  https://tinyurl.com/liamsdataset for the same dataset)
 * Click `Next >>`
 
 ![Import screen](assets/images/Import.png)
