@@ -3,6 +3,7 @@ title: Intro to Data Cleaning with OpenRefine # The title of the page
 nav: Intro to OpenRefine
 date: 0000-01-01    # Page order is set by date
 ---
+![OpenRefineLogo](https://upload.wikimedia.org/wikipedia/commons/b/bd/OpenRefine_logo_%282018-present%29.svg)
 
 ## What is OpenRefine?
 > *A power tool for working with messy data*   
