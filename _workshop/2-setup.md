@@ -11,13 +11,13 @@ For this workshop you should have OpenRefine installed.
 * Download OpenRefine from <https://openrefine.org/download.html>.
 There are versions for Windows, Mac OS X and Linux. The current stable version which this workshop has been tested with is __version 5.2__
 
-* Current versions of the __“Windows kit with embedded Java”__ and __“Mac kit”__ include everything you need to run OpenRefine.
+* Current versions of the __“Windows (including Java)”__ and __“Mac OS”__ include everything you need to run OpenRefine.
 
-* The “Linux kit” and traditional “Windows kit” require Java Runtime Environment (JRE) to be installed on your system (see notes below).
+* The “Linux kit” and “Windows (without Java)” require Java Runtime Environment (JRE) to be installed on your system (see notes below).
 
 * Full download instructions:
-  - <https://librarycarpentry.org/lc-open-refine/setup.html>  
-  - <https://docs.openrefine.org/manual/installing>
+  - <https://librarycarpentry.org/lc-open-refine/index.html>  
+  - <https://openrefine.org/docs/manual/installing>
 
 ## Installing OpenRefine
 
@@ -44,4 +44,5 @@ You can find support, documentation and tutorials on using OpenRefine in various
 
 * The OpenRefine Wiki <https://github.com/OpenRefine/OpenRefine/wiki>
 * The ‘Free your metadata’ site <http://freeyourmetadata.org/>
-* The OpenRefine mailing list and forum <http://groups.google.com/d/forum/openrefine>
+* The OpenRefine mailing list and forum <https://forum.openrefine.org>
+

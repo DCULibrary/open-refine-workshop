@@ -39,3 +39,6 @@ defaults:
       path: ""
     values:
       layout: workshop-stepper
+
+plugins:
+  - jemoji

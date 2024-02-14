@@ -13,12 +13,12 @@ date: 0000-01-01    # Page order is set by date
 >
 > _David Huynh, OpenRefine creator_
 
-OpenRefine is a free, open-source Java application. You can download it from <http://openrefine.org/download.html>.
+OpenRefine is a free, open-source Java application. You can download it from <http://openrefine.org/download.html>. There is more information on install options on the [_setup page_](setup.md).
 
-It is most useful where data is already in _tabular_ format like a spreadsheet or csv file, or in standardised formats like json or xml. Moving that data into OpenRefine enables you to:
-1. detect instances of inconsistent or messy data
-2. take steps to address those issues
-3. enhance your data by linking to external sources
+Using OpenRefine enables you to:
+1. _detect_ instances of inconsistent or messy data
+2. _take steps_ to address those issues
+3. _enhance_ your data by linking to external sources
 
 Or you might not have any clear idea in advance of what you want or need to do. OpenRefine is very useful there too, for exploring a dataset and identify what might be useful next steps.
 
@@ -28,14 +28,7 @@ Or you might not have any clear idea in advance of what you want or need to do. 
 
 Data that needs cleaning is often called _messy_ data. It is data that is inconsistent or poorly structured in some way. This could be in relation to how it is formatted, where data appears, or in terminology used.
 
-Typically you will look to clean your data because you’re going to do something else with it. Maybe to visualise it or present it in some way, or to analyse or draw conclusions from it. Cleaning your data will help ensure any work or outputs based on a given dataset is accurate and reliable. It is thus an important process for researchers to be aware of when using data in their research.
-
-> _It is often said that 80% of data analysis is spent on the process of cleaning and preparing the data._  
-> _Data preparation is not just a first step, but must be repeated many times over the course of analysis as new problems come to light or new data is collected._
->
-> _Hadley Wickham,_ [ _Tidy Data_ ](https://vita.had.co.nz/papers/tidy-data.pdf)
-
-So while you are usually cleaning data as a preparatory step, it’s very often a big part of any data-reliant project. And unfortunately it’s not something you do at the start and then skip off with your gleaming data. It’s an iterative process. But that can also be kind of a relief that you don’t have to "complete" your data cleaning.
+Typically you will look to clean your data because you’re going to do something else with it. For example, to visualise it or present it in some way, or to analyse or draw conclusions from it. Cleaning your data will help ensure data visualisation or data analysis is accurate and reliable. It is thus an important process for researchers to be aware of when using data in their research.
 
 ### Some examples of messy data
 
@@ -77,7 +70,7 @@ to something more like this:
 
 ### Tidy Data
 
-The last example above where data is *restructured* relates to _**tidy data**_. This can be thought of as a subset of clean data, more concerned with structuring your data correctly. Hadley Wickham has written a really good introduction to this topic.
+The last example above where data is *restructured* relates to _**tidy data**_. This can be thought of as a subset of clean data, more concerned with structuring data correctly. Hadley Wickham has written a really good introduction to this topic.
 [![Tidy Data article screengrab](assets/images/TidyDataArticle.png)](https://vita.had.co.nz/papers/tidy-data.pdf)
 
 > *“Tidy datasets are easy to manipulate, model and visualise, and have a specific structure:*
@@ -92,9 +85,9 @@ In the same article, Wickham writes
 
 ### Data Types
 
-![Image of Data and Lore from Star Trek](assets/images/ManyTypesOfData.png)
+[//]:![Image of Data and Lore from Star Trek](assets/images/ManyTypesOfData.png)
 
-...But mostly in OpenRefine we work with tabular data. This can be in different formats - excel, csv file or xml file but in structure it is *tabular*. And when we talk about *messy* data we are talking about the values in those cells in those tables. Blank cells, duplicates, errors. Data types also relates to how OpenRefine treats numbers, strings etc. - we'll look more at that later.
+OpenRefine accepts data in many different formats - excel, csv, xml, json etc. -  but in structure it is *tabular*. And when we talk about *messy* data we are talking about values in cells in those tables. Blank cells, duplicates, errors. Data types also relates to how OpenRefine treats numbers, strings etc. - we'll look more at that later.
 
 ### Enhancing your Data
 
